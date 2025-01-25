@@ -1,0 +1,32 @@
+[22,27,16,2,18,6] -> Insertion Sort
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+[ 22,27,16,2,18,6] 1. adım en küçük elemanı bul ve baştaki sayı ile değiştir ( 2 ve 22' nin yerini değiştir.)
+[ 2,27,16,22,18,6] 2. adım ikinci en küçük sayıyı bul ve 2.sıradaki sayı ile değiştir. ( 6 ve 27'nin yerini değiştir.)
+[ 2,6,16,22,18,27] 3. adım üçüncü en küçük sayı ile 3. sıradaki sayıyı değiştir. ( 16 zaten 3. sırada ve en küçük üçüncü sayı.)
+[2,6,16,22,18,27 ] 4. adım dördüncü en küçük sayı ile 4.sıradaki sayıyı değiştir. ( 18 ve 22'nin yerini değiştir. )
+
+[ 2,6,16,18,22,27] 5. adım beşinci en küçük sayı ile 5.sıradaki sayıyı değiştir. ( 22 zaten 5.sırada )
+[ 2,6,16,18,22,27] 6.adım en büyük sayıyı 6. sıraya yaz. ( 27 zaten sonda )
+[ 2,6,16,18,22,27] İnsertion Sort türüne göre sıralamanın son hali.
+
+Big-O gösterimini yazınız.
+
+Step 1 -> n
+Step 2 -> n-1
+Step 3 -> n-2
+....
+Step n-1 -> 1
+
+sum = (n*(n-1))/2 -> O(n^2)
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+18 sayısı dizi sıralandıktan sonra avarage case olur.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+[ 2,3,5,8,7,9,4,15,6] en küçük eleman bulundu. 7 ve 2nin yerini değiştir.
+[ 2,3,4,8,7,9,5,15,6] en küçük 2.eleman zaten yerinde . 4 ve 5in yerini değiştir.
+[2,3,4,5,7,9,8,15,6 ] en küçük 4.eleman için 8 ve 5in yerini değiştir.
+[ 2,3,4,5 7,9,8,15,6] istenen ilk 4 adım.
