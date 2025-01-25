@@ -1,0 +1,12 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+[7] dizinin root değeri 7 dir. ( ilk eleman root olarak kabul edilir. bundan sonra gelen sayılar root değerinden küçükse sola, büyük ise sağa yazılır.
+
+                   7
+                 /   \
+                5     8   
+              /   \     \
+             1     6      9 
+            /   \
+            0     3
+                 /  \
+                2     4
